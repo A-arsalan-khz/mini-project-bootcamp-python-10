@@ -4,7 +4,7 @@ from module_3 import find_comprehensive_orfs
 from module_4 import analyze_protein_properties
 from module_5 import filter_and_annotate_proteins
 from module_6 import generate_final_report
-from information import CODON_MAP
+from information import *
 
 def main():
     fasta_content_valid = """>educational_input | protein_len_5_and_4
